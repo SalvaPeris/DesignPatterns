@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{013D7E69-2961-4019-940A-6136E6DFE1FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{59217BE2-C9B8-47A4-8663-CED04F14B5B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{59217BE2-C9B8-47A4-8663-CED04F14B5B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentInterface", "FluentInterface\FluentInterface.csproj", "{759CFC12-37BE-4840-B850-9AD8CEED4798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{59217BE2-C9B8-47A4-8663-CED04F14B5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59217BE2-C9B8-47A4-8663-CED04F14B5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59217BE2-C9B8-47A4-8663-CED04F14B5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759CFC12-37BE-4840-B850-9AD8CEED4798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759CFC12-37BE-4840-B850-9AD8CEED4798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759CFC12-37BE-4840-B850-9AD8CEED4798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759CFC12-37BE-4840-B850-9AD8CEED4798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

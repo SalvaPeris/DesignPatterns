@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{59217BE2-C9B8-47A4-8663-CED04F14B5B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentInterface", "FluentInterface\FluentInterface.csproj", "{759CFC12-37BE-4840-B850-9AD8CEED4798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentInterface", "FluentInterface\FluentInterface.csproj", "{759CFC12-37BE-4840-B850-9AD8CEED4798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{C784847E-374B-49F8-B29A-644AC1272CEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{759CFC12-37BE-4840-B850-9AD8CEED4798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{759CFC12-37BE-4840-B850-9AD8CEED4798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{759CFC12-37BE-4840-B850-9AD8CEED4798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C784847E-374B-49F8-B29A-644AC1272CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C784847E-374B-49F8-B29A-644AC1272CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C784847E-374B-49F8-B29A-644AC1272CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C784847E-374B-49F8-B29A-644AC1272CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

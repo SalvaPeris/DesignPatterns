@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentInterface", "FluentIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{C784847E-374B-49F8-B29A-644AC1272CEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{80C09745-F22D-4772-97D8-CAFF302A8B7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C784847E-374B-49F8-B29A-644AC1272CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C784847E-374B-49F8-B29A-644AC1272CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C784847E-374B-49F8-B29A-644AC1272CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C09745-F22D-4772-97D8-CAFF302A8B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C09745-F22D-4772-97D8-CAFF302A8B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C09745-F22D-4772-97D8-CAFF302A8B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C09745-F22D-4772-97D8-CAFF302A8B7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

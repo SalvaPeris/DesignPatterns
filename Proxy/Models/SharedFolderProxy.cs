@@ -1,0 +1,29 @@
+﻿using Proxy.Interfaces;
+
+namespace Proxy.Models
+{
+    public class SharedFolderProxy : ISharedFolder
+    {
+        private ISharedFolder folder;
+        private Employee _employee;
+
+        public SharedFolderProxy(Employee employee)
+        {
+            _employee = employee;
+        }
+
+        public void PerformRWOperations()
+        {
+            if (_employee.Role.ToUpper() == "CEO" || _employee.Role.ToUpper() == "MANAGER")
+            {
+                folder = new SharedFolder();
+                Console.WriteLine("Shared Folder Proxy makes call to the RealFolder 'PerformRWOperations method'");
+                folder.PerformRWOperations();
+            }
+            else
+            {
+                Console.WriteLine("Shared Folder proxy says 'You don't have permission to access this folder'");
+            }
+        }
+    }
+}

@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{F23A4257-ED64-422A-81D1-FA31B22AEF67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{B24FF33E-1833-4D0D-BC69-5E0FECD341BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F23A4257-ED64-422A-81D1-FA31B22AEF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F23A4257-ED64-422A-81D1-FA31B22AEF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F23A4257-ED64-422A-81D1-FA31B22AEF67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24FF33E-1833-4D0D-BC69-5E0FECD341BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24FF33E-1833-4D0D-BC69-5E0FECD341BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24FF33E-1833-4D0D-BC69-5E0FECD341BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24FF33E-1833-4D0D-BC69-5E0FECD341BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

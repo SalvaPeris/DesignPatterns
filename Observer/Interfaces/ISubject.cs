@@ -1,4 +1,4 @@
-﻿namespace Observer.Interfaces
+﻿namespace ObserverDesignPattern.Interfaces
 {
     public interface ISubject
     {

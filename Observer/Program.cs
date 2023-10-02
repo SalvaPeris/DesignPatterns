@@ -3,11 +3,11 @@ using ObserverDesignPattern;
 
 internal class Program
 {
-    private static void Main(string[] args)
+    private static void Main()
     {
         Console.WriteLine("This is observer pattern demo:");
 
-        Subject iPhone = new Subject("iPhone", 800, "Out of stock");
+        Subject iPhone = new("iPhone", 800, "Out of stock");
 
         Observer user1 = new("Manolo");
         user1.AddSubscriber(iPhone);

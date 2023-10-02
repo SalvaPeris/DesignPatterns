@@ -4,7 +4,7 @@ namespace ObserverDesignPattern
 {
     public class Subject : ISubject
     {
-        private List<IObserver> Observers = new List<IObserver>();
+        private readonly List<IObserver> Observers = new();
         private string? ProductName { get; set; }
         private int ProductPrice { get; set; }
         private string Availability { get; set; }
